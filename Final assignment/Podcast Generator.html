@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- Nav Bar -->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html"><img src="./images/plane.png" alt="plane1"><span
+                                class="fw-bold">Collab</span><span class="fw-bold"
+                                style="color: red;">Talk.ai</span></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link" href="index.html" class="fw-bold"><span class="fw-bold"
+                                        style="color: red;">Logout</span></a>
+                                <a class="nav-link" href="index.html" class="fw-bold">About</a>
+                                <a class="nav-link" href="index.html" class="fw-bold">Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- end nav bar -->
+
+    <!-- Main -->
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6  mt-5">
+                    <img src="./images/mic.png" alt="mic" style="width: 160px;margin-left: 200px;">
+                </div>
+                <div class="col-12 col-md-6  mt-5">
+                    <h3 id="head1" style="position:absolute;top: 28.8%;left: 510px;font-size: 40px;" class="fw-bold">
+                        Collab<span style="color: red;">Talk.ai</span></h3>
+                    <h1 id="head2" style="position: absolute;top: 210px;left: 480px;font-size: 60px;" class="fw-bold"><span style="color: red;">Get</span> Started</h1>
+                </div>
+            </div>
+            <!-- Text Area -->
+            <div class="row">
+                <div class="col-12 col-md-6  mt-5">
+                    <textarea style="background-color: #ffe6e6;border-radius: 20px;text-decoration: none;border: none;margin-left: 114px;" class="p-3 ps-5 text-secondary text-opacity-75" id="script1" name="script" cols="114"
+                        rows="18">Your Script</textarea>
+                    <h5 class="mt-5" style="margin-left: 550px;">OR</h5>
+                </div>
+                <!-- Text Area End -->
+
+                <!-- Informatioin -->
+                <div class="col-12 col-md-4 col-lg-1  mt-5 border border-dark rounded-5" style="padding: 36px 40px;width: 450px;margin-left: 121px;">
+                    <input class="text-secondary text-opacity-75" style="background-color:#ffe6e6;border: none;border-radius: 22px;height:53px;width: 340px;padding: 0px 24px;" type="email" value="Your Link">
+                    <h5 style="margin-left: 148px; margin-top: 26px; margin-bottom: 26px;">OR</h5>
+                    <input class="text-secondary text-opacity-75" style="background-color:#ffe6e6;border: none;border-radius: 22px;height:53px;width: 340px;padding: 0px 24px;" type="text" value="Your Topic">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4" style="margin-left: 100px;margin-top: 60px;">
+                    <label class="mb-1" for="min">Lenght of your podcasts:</label><br>
+                    <input class="ms- text-secondary text-opacity-75" style="background-color:#ffe6e6;border: none;border-radius: 22px;height:53px;width: 220px;padding: 0px 24px;" type="tel" value="Minutes">
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 position-relative">
+                    <img style="width: 370px; left:860px;bottom: 0px; position: absolute; z-index: 2;"
+                        src="./Images/plane2.png" alt="plane2">
+                    <img style="width: 90px;position: absolute;left: 1020px;bottom: 208px;;" src="./Images/arrow.png"
+                        alt="arrow">
+                </div>
+            </div>
+        </div>
+        <!-- Tables + Forms -->
+        <div class="container position-relative">
+            <div class="row" style="margin: 100px;">
+                <!-- Name -->
+                <div class="col-sm-12 col-md-4">
+                    <label for="name">Speaker 1</label><br>
+                    <input class="inputs2 text-secondary text-opacity-75" type="text" value="Name">
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <label for="name">Speaker 2</label><br>
+                    <input class="inputs2 text-secondary text-opacity-75" type="text" value="Name">
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <label for="name">Speaker 3</label><br>
+                    <input class="inputs2 text-secondary text-opacity-75" type="text" value="Name">
+                </div>
+                <!-- Gender -->
+                <div class="col-sm-12 col-md-4 mt-4">
+                    <label for="gender">Gender (Optional)</label><br>
+                    <input class="inputs2 text-secondary text-opacity-75" type="text" value="Female">
+                </div>
+                <div class="col-sm-12 col-md-4 mt-4">
+                    <label for="gender">Gender (Optional)</label><br>
+                    <input class="inputs2 text-secondary text-opacity-75" type="text" value="Male">
+                </div>
+                <div class="col-sm-12 col-md-4 mt-4">
+                    <label for="gender">Gender (Optional)</label><br>
+                    <input class="inputs2 text-secondary text-opacity-75" type="text" value="Male">
+                </div>
+                <!-- Age -->
+                <div class="col-sm-12 col-md-4 col-lg-4 mt-5">
+                    <label for="Age">Age (Optional)</label><br>
+                    <input class="inputs2 text-secondary text-opacity-75" type="text" value="young">
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 mt-5">
+                    <label for="Age">Age (Optional)</label><br>
+                    <input class="inputs2 text-secondary text-opacity-75" type="text" value="old">
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 mt-5">
+                    <label for="Age">Age (Optional)</label><br>
+                    <input class="inputs2 text-secondary text-opacity-75" type="text" value="middle aged...">
+                </div>
+                <!-- Accent -->
+                <div class="col-sm-12 col-md-4 col-lg-4 mt-5">
+                    <label for="country">Accent (Optional)</label><br>
+                    <input class="inputs2 text-secondary text-opacity-75" type="text" value="american">
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 mt-5">
+                    <label for="country">Accent (Optional)</label><br>
+                    <input class="inputs2 text-secondary text-opacity-75" type="text" value="australian">
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 mt-5">
+                    <label for="country">Accent (Optional)</label><br>
+                    <input class="inputs2 text-secondary text-opacity-75" type="text" value="british">
+                </div>
+                <!-- Table + Form End -->
+                <div class="col-12 col-md-6 ">
+                    <img style="width: 22%;right: 78%; position: absolute;" src="./Images/cartoon.png" alt="cartoon">
+                    <p style="position: absolute;left: 22.6%; top: 120%; font-size: 16px;">Generate Conversational
+                        podcasts using your<br>favorite medium articles or simply by giving a topic.</p>
+                    <a style="text-decoration: none;color:white;" href="/download.html"><button type="button"class="btn btn-danger" style="margin: 200px 180px;border-radius: 10px;position: absolute; height: 42px;padding: 0px 34px;--bs-btn-font-size: 14px">Generate</button></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Main End -->
+
+
+    <!-- Javascript link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js "
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4 "
+        crossorigin="anonymous "></script>
+</body>
+
+</html>
